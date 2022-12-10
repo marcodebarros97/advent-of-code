@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Helpers helpers = new Helpers();
+        DirectorySearch directorySearch = new DirectorySearch();
         File file = new File("src/Input.txt");
         List<String> fileSystem = new ArrayList<>();
         try {
@@ -16,10 +16,9 @@ public class Main {
             throw new RuntimeException(e);
         }
 
-        DeviceDirectory root = new DeviceDirectory("/", null);
+        DeviceDirectory root = new DeviceDirectory("/");
         DeviceDirectory currentDirectory = root;
         List<DeviceDirectory> allDirectories = new ArrayList<>();
-        allDirectories.add(root);
 
         for (String line : fileSystem) {
             String[] lineSplit = line.split(" ");
@@ -32,24 +31,27 @@ public class Main {
                             currentDirectory = currentDirectory.getParentDirectory();
                         }
                     } else {
-                        currentDirectory = helpers.findDirectory(lineSplit[2], allDirectories);
+                        currentDirectory = directorySearch.findDirectory(lineSplit[2], allDirectories);
                     }
                 }
             } else if ("dir".equals(lineSplit[0])) {
-                DeviceDirectory directory = new DeviceDirectory(lineSplit[1], currentDirectory);
+                DeviceDirectory directory = new DeviceDirectory(lineSplit[1]);
+                directory.setParentDirectory(currentDirectory);
                 allDirectories.add(directory);
             } else {
                 currentDirectory.addFiles(new DeviceFile(lineSplit[1], Integer.parseInt(lineSplit[0])));
             }
         }
-        long count1 = 0;
+        int count = 0;
         for (DeviceDirectory directory : allDirectories) {
             int size = directory.getSize();
             if (size < 100000) {
-                count1 += size;
+                count += size;
             }
         }
-        System.out.println(count1);
+
+        //Answer is supposed to be: 1792222
+        System.out.println(count);
     }
 }
 

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="180af5cb-0ccc-4f93-ae43-b6ac745fb9f3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7/out/production/AdventOfCodeDay7/FileSystem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7/out/production/AdventOfCodeDay7/FileSystem.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7/src/FileSystem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7/src/FileSystem.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7_2/out/production/AdventOfCodeDay7_2/DeviceDirectory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7_2/out/production/AdventOfCodeDay7_2/DeviceDirectory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7_2/out/production/AdventOfCodeDay7_2/Helpers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7_2/out/production/AdventOfCodeDay7_2/Input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7_2/out/production/AdventOfCodeDay7_2/Input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7_2/out/production/AdventOfCodeDay7_2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7_2/out/production/AdventOfCodeDay7_2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7_2/src/DeviceDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7_2/src/DeviceDirectory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7_2/src/Helpers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7_2/src/Input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7_2/src/Input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7_2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day 7/AdventOfCodeDay7_2/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2IjH5pu7wc5JeczzcxByCmXNoF0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="180af5cb-0ccc-4f93-ae43-b6ac745fb9f3" name="Changes" comment="" />
+      <created>1670687893345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670687893345</updated>
+    </task>
+    <servers />
+  </component>
+</project>

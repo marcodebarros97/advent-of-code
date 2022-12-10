@@ -8,24 +8,19 @@ public class DeviceDirectory {
 
     private DeviceDirectory parentDirectory;
 
-    public DeviceDirectory(String name, DeviceDirectory parentDirectory) {
+    public DeviceDirectory(String name) {
         this.name = name;
-        this.parentDirectory = parentDirectory;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public void addFiles(DeviceFile deviceFile){
         this.size += deviceFile.getSize();
         if (this.parentDirectory != null){
             int parentSize = this.parentDirectory.getSize();
-            this.parentDirectory.setSize(parentSize += deviceFile.getSize());
+            this.parentDirectory.setSize(parentSize + deviceFile.getSize());
         }
         deviceFileList.add(deviceFile);
     }
